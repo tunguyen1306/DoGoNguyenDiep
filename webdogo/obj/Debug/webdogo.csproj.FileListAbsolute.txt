@@ -1,0 +1,64 @@
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\webdogo.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\webdogo.pdb
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\System.Web.Providers.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.xml
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.dll
+D:\Dropbox\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.pdb
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\webdogo.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\webdogo.pdb
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\System.Web.Providers.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.xml
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.csprojResolveAssemblyReference.cache
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.dll
+D:\Dropbox\Cong Ty\WebSite\WebDoGoNew\webdogo\obj\Debug\webdogo.pdb
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\webdogo.dll.config
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\webdogo.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\webdogo.pdb
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\System.Web.Providers.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\obj\Debug\webdogo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\obj\Debug\webdogo.dll
+C:\Users\Administrator\Downloads\WebDoGoNew\WebDoGoNew\webdogo\obj\Debug\webdogo.pdb

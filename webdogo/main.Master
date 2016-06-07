@@ -1,0 +1,227 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="webdogo.main" %>
+
+<%@ Register Src="~/ctr/ctr_header.ascx" TagPrefix="uc1" TagName="ctr_header" %>
+<%@ Register Src="~/ctr/ctr_footer.ascx" TagPrefix="uc2" TagName="ctr_footer" %>
+<%@ Register Src="~/ctr/ctr_silde.ascx" TagPrefix="uc3" TagName="ctr_silde" %>
+
+<%@ Register Src="~/ctr/ctr_right.ascx" TagPrefix="uc5" TagName="ctr_right" %>
+<%@ Register Src="~/ctr/ctr_content.ascx" TagPrefix="uc1" TagName="ctr_content" %>
+<%@ Register Src="~/ctr/ctr_fb.ascx" TagPrefix="uc1" TagName="ctr_fb" %>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="off-canvas" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<asp:ContentPlaceHolder ID="fb" runat="server">
+    <uc1:ctr_fb runat="server" ID="ctr_fb" />
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Trang chủ website Đồ Gỗ Mỹ Nghệ Nguyễn Diệp</title>
+    <meta http-equiv="content-language" content="en-br-de-pl-fr-it-ru-es">
+    <meta name="generator" content="Đồ gỗ mỹ nghệ NGUYỄN DIỆP">
+    <meta name="robots" content="index,follow">
+    <meta property="fb:app_id" content="324503021040953">
+    <link type="img/hinhbieutttuong.jpg" rel="icon" href="http://dogonguyendiep.com/img/hinhbieutttuong.jpg"/>
+    <link href="./css/global.css" rel="stylesheet" type="text/css" media="all">
+    <%--<link href="./css/hoverbuttons.6eab8de2ee93b309873157b6d3f977fe.css" rel="stylesheet" />--%>
+    <link href="./css/blockcart.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockcategories.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockcurrencies.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockuserinfo.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blocklanguages.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/jquery.autocomplete.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/product_list.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blocksearch.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/form.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/bootstrap.css" rel="stylesheet" />
+    <link href="./css/leocamera.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/camera.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" media="all">
+   <%-- <link href="./css/styles(1).css" rel="stylesheet" type="text/css" media="all">--%>
+    <link href="./css/sendtoafriend.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockleorelatedproducts.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockwishlist.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/homefeatured.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockleohighlightcarousel.css" rel="stylesheet" type="text/css" media="all">
+   <%-- <link href="./css/style(1).css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/style(2).css" rel="stylesheet" type="text/css" media="all">--%>
+    <link href="./css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./css/blockleosocial.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/cus1.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
+    <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.easing.js"></script>
+    <script src="js/cus.js"></script>
+    <script type="text/javascript" src="./js/treeManagement.js"></script>
+    <script type="text/javascript" src="./js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+    <script type="text/javascript" src="./js/camera.js"></script>
+    <script type="text/javascript" src="./js/ajax-wishlist.js"></script>
+    <script type="text/javascript" src="./js/jquery.prettyPhoto.js"></script>
+    <link href="./css/css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/custom.js"></script>
+    <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+
+    <%--<script src="js/menu.js"></script>--%>
+
+
+
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+ 
+    <script>
+        //plugin
+        jQuery.fn.topLink = function (settings) {
+            settings = jQuery.extend({
+                min: 1,
+                fadeSpeed: 200
+            }, settings);
+            return this.each(function () {
+                //listen for scroll
+                var el = $(this);
+                el.hide(); //in case the user forgot
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() >= settings.min) {
+                        el.fadeIn(settings.fadeSpeed);
+                    }
+                    else {
+                        el.fadeOut(settings.fadeSpeed);
+                    }
+                });
+            });
+        };
+
+        //usage w/ smoothscroll
+        $(document).ready(function () {
+            //set the link
+            $('#top-link').topLink({
+                min: 400,
+                fadeSpeed: 500
+            });
+            //smoothscroll
+            $('#top-link').click(function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+                $.scrollTo(0, 300);
+            });
+        });
+    </script>
+    <link href="./css/colorbox.css" rel="stylesheet">
+    <script src="./js/jquery.colorbox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Examples of how to assign the Colorbox event to elements
+            $(".group1").colorbox({ rel: 'group1' });
+            $(".group2").colorbox({ rel: 'group2', transition: "fade", maxWidth: '90%', maxHeight: '90%' });
+            $(".group3").colorbox({ rel: 'group3', transition: "none", width: "75%", height: "75%" });
+            $(".group4").colorbox({ rel: 'group4', slideshow: true });
+            $(".ajax").colorbox();
+            $(".youtube").colorbox({ iframe: true, innerWidth: 640, innerHeight: 390 });
+            $(".vimeo").colorbox({ iframe: true, innerWidth: 500, innerHeight: 409 });
+            $(".iframe").colorbox({ iframe: true, width: "80%", height: "80%" });
+            //iframe_muahang
+            $(".iframe_muahang").colorbox({ iframe: true, width: "470px", height: "620px" });
+
+            $(".inline").colorbox({ inline: true, width: "50%" });
+            $(".callbacks").colorbox({
+                onOpen: function () { alert('onOpen: colorbox is about to open'); },
+                onLoad: function () { alert('onLoad: colorbox has started to load the targeted content'); },
+                onComplete: function () { alert('onComplete: colorbox has displayed the loaded content'); },
+                onCleanup: function () { alert('onCleanup: colorbox has begun the close process'); },
+                onClosed: function () { alert('onClosed: colorbox has completely closed'); }
+            });
+
+            $('.non-retina').colorbox({ rel: 'group5', transition: 'none' })
+            $('.retina').colorbox({ rel: 'group5', transition: 'none', retinaImage: true, retinaUrl: true });
+
+            //Example of preserving a JavaScript event for inline calls.
+            $("#click").click(function () {
+                $('#click').css({ "background-color": "#f00", "color": "#fff", "cursor": "inherit" }).text("Open this window again and this message will still be here.");
+                return false;
+            });
+        });
+    </script>
+
+    <script type="text/javascript">var switchTo5x = true;</script>
+    <script type="text/javascript">var switchTo5x = true;</script>
+    <script>
+        var txt = "Chào mừng bạn đến Trang Web Đồ Gỗ Mỹ Nghệ Nguyễn Diệp ";
+        var espera = 200;
+        var refresco = null;
+        function rotulo_title() {
+            document.title = txt;
+            txt = txt.substring(1, txt.length) + txt.charAt(0);
+            refresco = setTimeout("rotulo_title()", espera);
+        }
+        rotulo_title();
+</script>
+</head>
+<body id="index" class=" fs11">
+    
+    <form id="aspnetForm" runat="server"><asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+       <div id="left_ads_float" style="position:fixed;bottom:90px;">
+        <a target="_blank" href="http://dogonguyendiep.com/"><img border="0" width="130" src="img/banner-chuc-tet-dep.png"></a>
+    </div>
+
+         <div id="Div1" style="position:fixed;bottom:90px;right:5px">
+        <a target="_blank" href="http://dogonguyendiep.com/"><img border="0" width="130" src="img/banner-chuc-tet-dep-2015.png"></a>
+    </div>
+        <div id="page" class="clearfix">
+
+            <!-- Header -->
+
+
+            <asp:ContentPlaceHolder ID="header" runat="server">
+                <uc1:ctr_header runat="server" ID="ctr_header" />
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="silde" runat="server">
+                <uc3:ctr_silde runat="server" ID="ctr_silde" />
+            </asp:ContentPlaceHolder>
+
+
+
+
+            <section id="columns" class="clearfix">
+                <div class="container">
+                    <div class="row-fluid">
+
+
+                        <!-- Center -->
+                        <asp:UpdatePanel runat="server" ID="update1"><ContentTemplate>
+                        <asp:ContentPlaceHolder ID="Content" runat="server">
+                            <uc1:ctr_content runat="server" ID="ctr_content" />
+                        </asp:ContentPlaceHolder>
+                        </ContentTemplate></asp:UpdatePanel>
+
+                        <!-- Right -->
+
+                        <asp:ContentPlaceHolder ID="Right" runat="server">
+                            <uc5:ctr_right runat="server" ID="ctr_right" />
+                        </asp:ContentPlaceHolder>
+
+                        <!-- /Right -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+
+                <uc2:ctr_footer runat="server" ID="ctr_footer" />
+            </asp:ContentPlaceHolder></div>
+    </form>
+</body>
+</html>
